@@ -11,8 +11,8 @@
 ## 2.项目启动
 
 - **执行 `Composer install`**
-- **修改本地配置文件 `.env`**
-- **创建名为 `laravel` 的数据库**
+- **复制`.env.example`文件创建 `.env`**
+- **修改 `.env`中数据库账号密码**
 - **数据迁移生成数据表 `php artisan migrate`**
 - **配置域名访问或本地启动 `php artisan serve`**
 - **查看数据表是否创建**
